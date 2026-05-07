@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Goianita | Plano de Implantação 2026</title>
+    <title>Casa Goianita | Ecossistema de Recommerce 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -15,9 +15,6 @@
         h1, h2, h3, h4 {
             font-family: 'Playfair Display', serif;
         }
-        .cerrado-gradient {
-            background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
-        }
         .reveal {
             opacity: 0;
             transform: translateY(30px);
@@ -27,12 +24,8 @@
             opacity: 1;
             transform: translateY(0);
         }
-        .flow-card {
-            transition: all 0.3s ease;
-        }
-        .flow-card:hover {
-            transform: scale(1.02);
-            border-color: #A8A29E;
+        .halo-effect {
+            background: radial-gradient(circle, rgba(214,211,209,0.2) 0%, rgba(253,252,248,0) 70%);
         }
     </style>
 </head>
@@ -45,10 +38,10 @@
         </div>
         
         <div class="z-10 max-w-4xl">
-            <span class="text-sm tracking-[0.3em] uppercase text-stone-500 mb-4 block">Estratégia de Transição Comercial</span>
+            <span class="text-sm tracking-[0.3em] uppercase text-stone-500 mb-4 block">A Revolução da Economia Circular</span>
             <h1 class="text-6xl md:text-8xl font-bold text-stone-900 mb-6 italic">Tradição que Pulsa.</h1>
             <p class="text-xl md:text-2xl text-stone-600 font-light leading-relaxed max-w-2xl mx-auto italic">
-                A união do Recommerce Gourmet com o DNA do Cerrado Moderno.
+                O Futuro do Varejo Gourmet é Figital e 100% Circular.
             </p>
             <div class="mt-12 animate-bounce">
                 <svg class="w-6 h-6 mx-auto text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
@@ -56,172 +49,177 @@
         </div>
     </section>
 
-    <!-- O Diagnóstico: O "Nó" Operacional -->
-    <section class="py-24 px-6 md:px-12 bg-white">
+    <!-- Contexto de Mercado -->
+    <section class="py-24 px-6 bg-white border-b border-stone-100">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="reveal">
+                <h2 class="text-4xl md:text-5xl font-bold text-stone-800 mb-8 italic">Um Mercado de R$ 80 Bilhões</h2>
+                <p class="text-stone-600 text-lg leading-relaxed mb-6">
+                    O Recommerce profissionaliza o "desapego", transformando acervos domésticos em <strong>ativos financeiros líquidos</strong>. 
+                </p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 bg-stone-50 rounded-2xl">
+                        <span class="text-3xl font-bold text-stone-900 block">4x</span>
+                        <span class="text-sm text-stone-500 uppercase tracking-tighter">O mercado offline é superior ao digital</span>
+                    </div>
+                    <div class="p-6 bg-stone-50 rounded-2xl">
+                        <span class="text-3xl font-bold text-stone-900 block">70%</span>
+                        <span class="text-sm text-stone-500 uppercase tracking-tighter">Dos clientes físicos são novos na marca</span>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal p-8 bg-stone-900 rounded-3xl text-white">
+                <h3 class="text-2xl font-bold mb-6 italic">O Insight do Especialista</h3>
+                <blockquote class="text-stone-300 italic border-l-2 border-stone-500 pl-6 py-2 mb-6">
+                    "O sucesso reside na capacidade de unir a eficiência de dados com uma experiência de curadoria que elimine o estigma do brechó tradicional."
+                </blockquote>
+                <p class="text-sm text-stone-400">
+                    Casa Goianita como o <strong>"Center of Service"</strong>: escala digital com a confiança do ponto físico.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Modelo Híbrido (Benchmark) -->
+    <section class="py-24 bg-stone-50 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16 reveal">
-                <h2 class="text-4xl md:text-5xl font-bold text-stone-800 mb-4 italic">O Desafio do "Sistema Sombra"</h2>
-                <p class="text-stone-500 max-w-2xl mx-auto">O diagnóstico do NotebookLM revelou que a Goianita opera "apesar dos sistemas", dependendo de processos manuais críticos.</p>
+                <h2 class="text-4xl md:text-5xl font-bold italic mb-4">Arquitetura Estratégica</h2>
+                <p class="text-stone-500">Fusão Enjoei (Escala de Dados) + Peça Rara (Excelência Física)</p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 reveal">
-                <div class="p-8 bg-stone-50 rounded-3xl border border-stone-200">
-                    <h3 class="text-2xl font-bold mb-6 text-red-800 italic uppercase tracking-wider">Cenário Atual (AS-IS)</h3>
-                    <ul class="space-y-4 text-stone-600">
-                        <li class="flex gap-3">
-                            <span class="text-red-500 font-bold">✕</span>
-                            <span>Compras baseadas no "feeling" e anotadas em <strong>cadernos físicos</strong>.</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <span class="text-red-500 font-bold">✕</span>
-                            <span>Fluxo <strong>Procure-to-Pay</strong> quebrado e sem integração sistêmica.</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <span class="text-red-500 font-bold">✕</span>
-                            <span>Estoque sem endereçamento, gerando rupturas e "caça ao tesouro".</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <span class="text-red-500 font-bold">✕</span>
-                            <span>Financeiro pagando folha "Pix por Pix" manualmente.</span>
-                        </li>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Digital -->
+                <div class="bg-white p-8 rounded-3xl border border-stone-200 reveal">
+                    <h4 class="font-bold text-xl mb-4 italic">Moat Tecnológico</h4>
+                    <ul class="space-y-4 text-sm text-stone-500">
+                        <li class="flex gap-2"><span>•</span> <span><strong>IA de Precificação:</strong> Eliminação da subjetividade humana na entrada.</span></li>
+                        <li class="flex gap-2"><span>•</span> <span><strong>Asset-Light:</strong> Intermediação sem imobilização de capital.</span></li>
+                        <li class="flex gap-2"><span>•</span> <span><strong>Full Service:</strong> Curadoria, foto e logística centralizados.</span></li>
                     </ul>
                 </div>
-                <div class="p-8 bg-stone-900 rounded-3xl text-white shadow-2xl">
-                    <h3 class="text-2xl font-bold mb-6 text-stone-300 italic uppercase tracking-wider">Cenário Futuro (TO-BE)</h3>
-                    <ul class="space-y-4 text-stone-300">
-                        <li class="flex gap-3">
-                            <span class="text-green-400 font-bold">✓</span>
-                            <span>Reposição automática baseada em <strong>Estoque Mínimo</strong> e giro.</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <span class="text-green-400 font-bold">✓</span>
-                            <span>Importação de <strong>XML</strong> para automação de custos e markup.</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <span class="text-green-400 font-bold">✓</span>
-                            <span><strong>Metodologia 5S</strong>: Prateleiras identificadas e zero avarias.</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <span class="text-green-400 font-bold">✓</span>
-                            <span>Gestão de <strong>Consignados</strong> integrada para Recommerce.</span>
-                        </li>
+                <!-- Físico -->
+                <div class="bg-white p-8 rounded-3xl border border-stone-200 reveal">
+                    <h4 class="font-bold text-xl mb-4 italic">Estética Boutique</h4>
+                    <ul class="space-y-4 text-sm text-stone-500">
+                        <li class="flex gap-2"><span>•</span> <span><strong>Consignação:</strong> Estoque financiado pelo próprio cliente (Fornecedor Local).</span></li>
+                        <li class="flex gap-2"><span>•</span> <span><span>Lojas amplas que rompem o arquétipo do brechó tradicional.</span></span></li>
                     </ul>
+                </div>
+                <!-- Retenção -->
+                <div class="bg-stone-900 p-8 rounded-3xl text-white shadow-xl reveal">
+                    <h4 class="font-bold text-xl mb-4 italic text-stone-200">Retenção de Capital</h4>
+                    <div class="p-6 bg-stone-800 rounded-2xl mb-4 border border-stone-700">
+                        <span class="text-3xl font-bold text-green-400 block">+20%</span>
+                        <p class="text-xs uppercase tracking-widest text-stone-400 mt-2">Bônus para Crédito em Loja</p>
+                    </div>
+                    <p class="text-sm text-stone-400 italic leading-relaxed">
+                        Tática para reter capital no ecossistema Goianita e estimular o consumo circular interno.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Funcionamento do Modelo Peça Rara -->
-    <section class="py-24 bg-stone-50 px-6 overflow-hidden">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-bold italic text-center mb-16 reveal">O Fluxo da Consignação Editorial</h2>
-            
-            <div class="relative reveal">
-                <!-- Diagrama Mobile-friendly -->
-                <div class="grid md:grid-cols-4 gap-4">
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center flow-card">
-                        <div class="w-12 h-12 bg-stone-900 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
-                        <h4 class="font-bold mb-2 uppercase text-xs tracking-widest">Captação</h4>
-                        <p class="text-sm text-stone-500 italic">Famílias trazem acervos (pratarias, cristais) ou artistas enviam peças.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center flow-card">
-                        <div class="w-12 h-12 bg-stone-900 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
-                        <h4 class="font-bold mb-2 uppercase text-xs tracking-widest">Triagem</h4>
-                        <p class="text-sm text-stone-500 italic">Avaliação de qualidade e "fit" com o posicionamento Gourmet.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center flow-card">
-                        <div class="w-12 h-12 bg-stone-900 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
-                        <h4 class="font-bold mb-2 uppercase text-xs tracking-widest">Venda (Take Rate)</h4>
-                        <p class="text-sm text-stone-500 italic">Peça exposta em mesas de composição. Goianita retém comissão sobre a venda.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center flow-card">
-                        <div class="w-12 h-12 bg-stone-900 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
-                        <h4 class="font-bold mb-2 uppercase text-xs tracking-widest">Acerto</h4>
-                        <p class="text-sm text-stone-500 italic">Pagamento mensal ao consignador via Tiny ERP automatizado.</p>
-                    </div>
+    <!-- O Efeito Halo -->
+    <section class="py-24 px-6 bg-white halo-effect relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center reveal">
+            <h2 class="text-4xl md:text-5xl font-bold italic mb-8">O "Halo Effect" Figital</h2>
+            <p class="text-xl text-stone-600 font-light leading-relaxed mb-12">
+                Dados mostram que clientes que interagem com o mundo físico e digital da marca <strong>gastam de 2 a 5 vezes mais</strong> do que clientes puramente digitais.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-12 items-center">
+                <div class="space-y-2">
+                    <span class="text-sm text-stone-400 uppercase tracking-widest block">Offline</span>
+                    <span class="text-2xl italic font-bold">Confiança e CAC Baixo</span>
                 </div>
-                
-                <!-- Desenho de Demonstração (SVG) -->
-                <div class="mt-16 bg-white p-8 rounded-3xl border border-stone-200 flex flex-col items-center">
-                    <h4 class="text-stone-400 uppercase text-xs tracking-[0.3em] mb-8">Arquitetura de Mix Híbrido</h4>
-                    <svg viewBox="0 0 400 200" class="w-full max-w-lg h-auto">
-                        <!-- Pirâmide de Mix baseada em Kaká Ribeiro -->
+                <div class="text-stone-300 hidden md:block">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                </div>
+                <div class="space-y-2">
+                    <span class="text-sm text-stone-400 uppercase tracking-widest block">Online</span>
+                    <span class="text-2xl italic font-bold">Escala e Inteligência</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mix e Fluxo Operacional -->
+    <section class="py-24 bg-stone-100 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold italic text-center mb-16 reveal">O Novo Motor Operacional</h2>
+            
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="reveal">
+                    <h4 class="text-stone-400 uppercase text-xs tracking-[0.3em] mb-8 text-center">Arquitetura de Mix 100% Circular</h4>
+                    <svg viewBox="0 0 400 200" class="w-full max-w-lg h-auto mx-auto">
                         <path d="M200 20 L350 180 L50 180 Z" fill="none" stroke="#2D2D2D" stroke-width="2"/>
                         <line x1="100" y1="130" x2="300" y2="130" stroke="#2D2D2D" stroke-width="1" stroke-dasharray="4"/>
                         <line x1="140" y1="80" x2="260" y2="80" stroke="#2D2D2D" stroke-width="1" stroke-dasharray="4"/>
                         
-                        <text x="200" y="60" text-anchor="middle" font-family="serif" font-style="italic" font-size="12" fill="#2D2D2D">Topo: Peças de Artistas (Desejo)</text>
-                        <text x="200" y="110" text-anchor="middle" font-family="serif" font-style="italic" font-size="12" fill="#78716c">Meio: Recommerce Gourmet (Consignados)</text>
-                        <text x="200" y="160" text-anchor="middle" font-family="serif" font-style="italic" font-size="12" fill="#a8a29e">Base: Produtos Âncora (Tramontina/Riva)</text>
+                        <text x="200" y="60" text-anchor="middle" font-family="serif" font-style="italic" font-size="12" fill="#2D2D2D">Artistas e Designers (Curadoria de Desejo)</text>
+                        <text x="200" y="110" text-anchor="middle" font-family="serif" font-style="italic" font-size="12" fill="#78716c">Recommerce Gourmet (Acervos Premium)</text>
+                        <text x="200" y="160" text-anchor="middle" font-family="serif" font-style="italic" font-size="12" fill="#a8a29e">Consignação de Giro (Itens Essenciais)</text>
                     </svg>
                 </div>
+                <div class="space-y-6 reveal">
+                    <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+                        <h4 class="font-bold italic text-stone-800 mb-2">Triagem Tecnológica</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed">Agendamento online obrigatório e uso de algoritmos para avaliar o "fit" socioeconômico da região.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+                        <h4 class="font-bold italic text-stone-800 mb-2">Precificação Baseada em Dados</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed">Abandono da intuição. Uso de bases históricas para sugerir preços que garantam liquidez imediata e confiança do fornecedor.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+                        <h4 class="font-bold italic text-stone-800 mb-2">Liquidação Administrativa</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed">Fluxo financeiro otimizado para acerto com fornecedores locais, via Pix ou retenção inteligente de capital.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- O Motor: Metodologia 5S + IA -->
-    <section class="py-24 px-6 bg-stone-900 text-white">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+    <!-- Checklist de Implantação e Riscos -->
+    <section class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
             <div class="reveal">
-                <h2 class="text-4xl md:text-5xl font-bold mb-8 italic">Gestão Inteligente de Estoque</h2>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 italic text-red-900">Riscos e KPIs</h2>
                 <div class="space-y-6">
-                    <div class="p-6 bg-stone-800 rounded-2xl">
-                        <h4 class="font-bold text-stone-300 mb-2 italic">Disciplina 5S no Depósito</h4>
-                        <p class="text-sm text-stone-400 leading-relaxed">Padronização diária: Seiri (Utilização), Seiton (Ordenação), Seiso (Limpeza), Seiketsu (Padronização) e Shitsuke (Disciplina).</p>
+                    <div class="border-l-4 border-red-200 pl-6">
+                        <h4 class="font-bold italic text-stone-800">Autenticidade e Qualidade</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed">O desafio de manter o padrão premium em um modelo de terceiros (Consignação).</p>
                     </div>
-                    <div class="p-6 bg-stone-800 rounded-2xl">
-                        <h4 class="font-bold text-stone-300 mb-2 italic">Otimização Figital</h4>
-                        <p class="text-sm text-stone-400 leading-relaxed">Utilização de coletores de dados para inventários rotativos e integração XML de fornecedores para evitar o "caderninho".</p>
-                    </div>
-                </div>
-            </div>
-            <div class="reveal">
-                <!-- Desenho do Estoque 5S -->
-                <div class="bg-stone-800 p-8 rounded-3xl border border-stone-700 relative shadow-inner">
-                    <div class="grid grid-cols-3 gap-2 opacity-30">
-                        <div class="h-12 border border-stone-600 rounded"></div><div class="h-12 border border-stone-600 rounded"></div><div class="h-12 border border-stone-600 rounded"></div>
-                        <div class="h-12 border border-stone-600 rounded"></div><div class="h-12 border border-stone-600 rounded"></div><div class="h-12 border border-stone-600 rounded"></div>
-                    </div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="text-center">
-                            <span class="text-6xl mb-4 block">📦</span>
-                            <span class="text-xs tracking-widest uppercase font-bold text-green-400">Status: Organizado</span>
-                        </div>
+                    <div class="border-l-4 border-red-200 pl-6">
+                        <h4 class="font-bold italic text-stone-800">Dependência Geográfica</h4>
+                        <p class="text-sm text-stone-500 leading-relaxed">Extrema sensibilidade ao ponto comercial e ao fluxo de fornecedores locais de qualidade.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Marketing: "Receber uma Visita" -->
-    <section class="py-24 bg-white px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl md:text-5xl italic font-bold mb-12 reveal">O Jeito Goianita de Encantar</h2>
-            <div class="grid md:grid-cols-2 gap-12 text-left reveal">
-                <div class="space-y-4">
-                    <h3 class="text-2xl italic">Mindset de Acolhimento</h3>
-                    <p class="text-stone-600 leading-relaxed">Não somos apenas vendedores; somos anfitriões. O treinamento foca em transformar a transação em uma experiência de "casa aberta".</p>
-                </div>
-                <div class="space-y-4">
-                    <h3 class="text-2xl italic">Marketing de Influência</h3>
-                    <p class="text-stone-600 leading-relaxed">O "Exército de Embaixadoras" (Designers e Personal Organizers) atua como curador externo, trazendo confiança e fluxo qualificado.</p>
-                </div>
-            </div>
-            
-            <!-- CTA Implantação -->
-            <div class="mt-20 reveal">
-                <p class="text-stone-400 text-xs uppercase tracking-widest mb-8 italic">// Próximo Passo: Virada de Marca em 04/2026</p>
-                <div class="inline-flex gap-4">
-                    <button class="px-8 py-3 bg-stone-900 text-white rounded-full text-sm uppercase tracking-widest hover:bg-stone-700 transition-all">Ver Roadmap</button>
-                    <button class="px-8 py-3 border border-stone-300 text-stone-600 rounded-full text-sm uppercase tracking-widest hover:bg-stone-50 transition-all">Acessar Tiny ERP</button>
-                </div>
+            <div class="reveal bg-stone-900 rounded-3xl p-10 text-white shadow-2xl">
+                <h3 class="text-2xl font-bold mb-8 italic">Checklist Estratégico</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3">
+                        <div class="w-5 h-5 rounded border border-stone-700 flex items-center justify-center text-[10px]">✓</div>
+                        <span class="text-sm text-stone-400 italic">Implementar Agendamento Online de Fornecedores</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <div class="w-5 h-5 rounded border border-stone-700 flex items-center justify-center text-[10px]">✓</div>
+                        <span class="text-sm text-stone-400 italic">Estruturar Bonificação de 20% p/ Crédito em Loja</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <div class="w-5 h-5 rounded border border-stone-700 flex items-center justify-center text-[10px]">✓</div>
+                        <span class="text-sm text-stone-400 italic">Lançamento do Modelo 100% Recommerce (04/2026)</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="py-12 bg-stone-100 text-center px-6 border-t border-stone-200">
-        <p class="text-stone-400 text-xs tracking-[0.4em] uppercase">Casa Goianita | Tradição que Pulsa | LiVe Consultoria</p>
+        <p class="text-stone-400 text-xs tracking-[0.4em] uppercase mb-2">Casa Goianita | Tradição que Pulsa</p>
+        <p class="text-stone-400 text-[10px] uppercase tracking-widest">Guia de Implantação Estratégica 2026 | LiVe Consultoria</p>
     </footer>
 
     <script>
@@ -237,7 +235,7 @@
             }
         }
         window.addEventListener("scroll", reveal);
-        reveal(); // Inicial
+        reveal();
     </script>
 
 </body>
