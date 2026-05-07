@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Goianita | Tradição que Pulsa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FDFCF8;
+            color: #2D2D2D;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .cerrado-gradient {
+            background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center relative px-6 text-center bg-stone-100">
+        <div class="absolute inset-0 opacity-20 grayscale pointer-events-none overflow-hidden">
+             <!-- Placeholder para textura ou imagem da fachada histórica -->
+             <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80')] bg-cover bg-center"></div>
+        </div>
+        
+        <div class="z-10 max-w-4xl">
+            <span class="text-sm tracking-[0.3em] uppercase text-stone-500 mb-4 block">Desde 1952 em Goiânia</span>
+            <h1 class="text-6xl md:text-8xl font-bold text-stone-900 mb-6 italic">Tradição que Pulsa.</h1>
+            <p class="text-xl md:text-2xl text-stone-600 font-light leading-relaxed max-w-2xl mx-auto">
+                A evolução para o <span class="text-stone-900 font-semibold italic">Cerrado Moderno</span>: Curadoria territorial com alma e consumo consciente.
+            </p>
+            <div class="mt-12 animate-bounce">
+                <svg class="w-6 h-6 mx-auto text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Novo Modelo (Peça Rara Style) -->
+    <section class="py-24 px-6 md:px-12 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="reveal">
+                <h2 class="text-4xl md:text-5xl font-bold text-stone-800 mb-8 italic">O Novo Recommerce Gourmet</h2>
+                <div class="space-y-6 text-stone-600 leading-relaxed">
+                    <p>Adaptamos o modelo de sucesso da <strong>Peça Rara</strong> para o universo de utilidades domésticas e decoração de alto padrão.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-stone-900 mr-3 mt-1 font-bold">01.</span>
+                            <span><strong>Consignação Editorial:</strong> Recebemos acervos familiares e peças de artistas locais com rigorosa triagem.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-stone-900 mr-3 mt-1 font-bold">02.</span>
+                            <span><strong>Take Rate Estratégico:</strong> Monetizamos através da curadoria e visibilidade da marca histórica.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-stone-900 mr-3 mt-1 font-bold">03.</span>
+                            <span><strong>Mix Híbrido:</strong> O encontro do novo (estratégia de margem) com o garimpo (estratégia de desejo).</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 reveal">
+                <div class="h-64 bg-stone-200 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&q=80" alt="Mesa Posta" class="w-full h-full object-cover">
+                </div>
+                <div class="h-64 bg-stone-300 rounded-2xl mt-12 overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1594913785162-e6785b423cb1?auto=format&fit=crop&q=80" alt="Decoração" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposta de Valor -->
+    <section class="py-24 bg-stone-900 text-white px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl mb-12 italic reveal">Curadoria com Alma Territorial</h2>
+            <div class="grid md:grid-cols-3 gap-8 reveal">
+                <div class="p-8 border border-stone-700 rounded-2xl hover:bg-stone-800 transition-colors">
+                    <div class="text-3xl mb-4">🪑</div>
+                    <h3 class="text-xl font-bold mb-3 italic">Editorial Acessível</h3>
+                    <p class="text-stone-400 text-sm">O equilíbrio entre o popular e o luxo inacessível. Design para a vida real.</p>
+                </div>
+                <div class="p-8 border border-stone-700 rounded-2xl hover:bg-stone-800 transition-colors">
+                    <div class="text-3xl mb-4">🌿</div>
+                    <h3 class="text-xl font-bold mb-3 italic">DNA Goiano</h3>
+                    <p class="text-stone-400 text-sm">Goiás no centro. Valorização de artistas, designers e histórias da nossa terra.</p>
+                </div>
+                <div class="p-8 border border-stone-700 rounded-2xl hover:bg-stone-800 transition-colors">
+                    <div class="text-3xl mb-4">🔄</div>
+                    <h3 class="text-xl font-bold mb-3 italic">Economia Circular</h3>
+                    <p class="text-stone-400 text-sm">O novo luxo é consciente. Peças com história que ganham novos lares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operação e Tecnologia -->
+    <section class="py-24 px-6 bg-white overflow-hidden">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-4xl md:text-5xl font-bold italic mb-4">Eficiência Figital</h2>
+                <p class="text-stone-500">Tecnologia Olist/Tiny + Metodologia 5S</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8 reveal">
+                    <div class="flex items-center gap-6">
+                        <div class="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center shrink-0">💻</div>
+                        <div>
+                            <h4 class="font-bold italic">Estoque Virtual</h4>
+                            <p class="text-sm text-stone-500 leading-relaxed">Integração com fornecedores para vender sem imobilizar capital.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <div class="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center shrink-0">📦</div>
+                        <div>
+                            <h4 class="font-bold italic">Clique e Retire</h4>
+                            <p class="text-sm text-stone-500 leading-relaxed">Conectando o digital à experiência física na loja da 85.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <div class="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center shrink-0">✨</div>
+                        <div>
+                            <h4 class="font-bold italic">Disciplina 5S</h4>
+                            <p class="text-sm text-stone-500 leading-relaxed">Padronização do estoque para garantir velocidade e zero avaria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative reveal">
+                    <div class="cerrado-gradient p-12 rounded-3xl rotate-3 shadow-2xl">
+                        <div class="bg-white p-6 rounded-xl shadow-inner italic text-stone-400">
+                             // Dashboard Tiny Integrado
+                             <div class="mt-4 space-y-2">
+                                 <div class="h-2 w-full bg-stone-100 rounded"></div>
+                                 <div class="h-2 w-3/4 bg-stone-100 rounded"></div>
+                                 <div class="h-8 w-1/2 bg-stone-200 rounded mt-6"></div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketing e Embaixadoras -->
+    <section class="py-24 bg-stone-50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row gap-16 items-center">
+                <div class="md:w-1/2 reveal">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80" alt="Experiência Gourmet" class="rounded-3xl shadow-2xl">
+                </div>
+                <div class="md:w-1/2 reveal">
+                    <h2 class="text-4xl md:text-5xl italic font-bold mb-8">O Exército de Embaixadoras</h2>
+                    <p class="text-stone-600 mb-8 leading-relaxed italic">
+                        "Não vendemos objetos, curamos escolhas. A tradição que pulsa em cada peça."
+                    </p>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-xl border border-stone-200 flex justify-between items-center">
+                            <span>Designers de Interiores</span>
+                            <span class="text-stone-400">#Curadoria</span>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-stone-200 flex justify-between items-center">
+                            <span>Personal Organizers</span>
+                            <span class="text-stone-400">#Praticidade</span>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-stone-200 flex justify-between items-center">
+                            <span>Influencers de Mesa Posta</span>
+                            <span class="text-stone-400">#ArteDeReceber</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Mindset -->
+    <section class="py-24 bg-white px-6 text-center border-t border-stone-100">
+        <div class="max-w-3xl mx-auto reveal">
+            <h2 class="text-4xl md:text-5xl italic font-bold mb-8">"Receber uma Visita"</h2>
+            <p class="text-xl text-stone-500 font-light mb-12">
+                Abandonamos o atendimento transacional. Na Casa Goianita, cada cliente é um convidado para tomar um café e descobrir relíquias para o seu lar.
+            </p>
+            <div class="inline-block px-10 py-4 bg-stone-900 text-white rounded-full text-sm tracking-widest uppercase hover:scale-105 transition-transform cursor-pointer">
+                Iniciando a Jornada 2026
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-stone-100 text-center px-6">
+        <p class="text-stone-400 text-sm tracking-widest uppercase">Casa Goianita | LiVe Consultoria</p>
+    </footer>
+
+    <script>
+        // Scroll Reveal Animation
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        // Initial check
+        reveal();
+    </script>
+
+</body>
+</html>
